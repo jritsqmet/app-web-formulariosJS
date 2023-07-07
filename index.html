@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/JS/index.js"></script>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <form>
+            Ingrese nick:
+            <input type="text" id="nick"> <br>
+
+            Ingrese contraseña:
+            <input type="password" id="pass"> <br>
+
+            <input type="button" value="Aceptar" onclick="login()">
+
+        </form>
+        <hr>
+        <hr>
+
+        <form id='Form'>
+            <label for="correo">Ingrese correo electrónico</label>
+            <input type="email" id="correo"> <br>
+
+            <label for="pass">Ingrese su contraseña</label>
+            <input type="password" id="passw"><br>
+
+            <input type="button" value="Enviar" onclick="login2()">
+        </form>
+
+        <hr>
+        <hr>
+
+        <form>
+            <label for="lenguajes">Seleccione los lenguajes que conoce</label><br>
+            <input type="checkbox" name="java" id="java" value="Java"> Java
+            <input type="checkbox" name="python" id="python" value="Python"> Python
+            <input type="checkbox" name="go" id="go" value="Go"> Go
+            <input type="checkbox" name="ruby" id="ruby" value="Ruby"> Ruby <br>
+
+            <button type="button" onclick="chbox()">Aceptar</button>
+
+        </form>
+
+
+        <hr>
+        <hr>
+        <form action="/info.html">
+            <label for="ciudad">Elija su ciudad natal</label> <br>
+            <input type="radio" name="ciudad" id="cue" value="Cuenca"> Cuenca
+            <input type="radio" name="ciudad" id="uio" value="Quito">Quito
+            <input type="radio" name="ciudad" id="gye" value="Guayaquil"> Guayaquil
+            <input type="radio" name="ciudad" id="ten" value="Tena"> Tena
+            <br>
+            <button type="button" onclick="radio()">OK</button>
+            <input type="submit" >
+
+        </form>
+
+        <hr><hr>
+
+        <form >
+            <label for="nacionalidad">Elija su nacionalidad</label>
+            <select name="nacionalidad" id="nacionalidad">
+
+                <option value="ecuatoriana">Ecuatoriana</option>
+                <option value="japonesa">Japonesa</option>
+                <option value="Chilena">Chilena</option>
+                <option value="Canadiense">Canadiense</option>
+
+            </select>
+            <br>
+            <input type="button" value="Guardar" onclick="selector()">
+            
+        </form>
+
+        <hr><hr><hr>
+
+        <form>
+            <label for="nombre">Ingrese nombre</label>
+            <input type="text" id="nombre"> <br>
+
+            <label for="genero">Seleccione su género</label> <br>
+            <input type="radio" name="gen" id="M" value = "masculino"> Masculino
+            <input type="radio" name="gen" id="F" value ="femenino"> Femenino
+
+            <br>
+            Seleccione edad:
+            <select name="edad" id="edad">
+                <option value="menor de edad">Menor de edad</option>
+                <option value="adulto">Adulto</option>
+                <option value="mayor">Adulto mayor</option>
+
+            </select>
+            <br>
+
+            <button type="button" onclick="guardar()"> Guardar</button>
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer></footer>
+
+</body>
+
+</html>
